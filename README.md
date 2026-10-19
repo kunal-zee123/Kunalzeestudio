@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kunal Zee Studio - Jharkhand Ki Har Khabar Sabse Pehle</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Poppins,sans-serif;background:#f8fafc;color:#0f172a}
+.header{background:#0f172a;color:white;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0}
+.logo-area{display:flex;align-items:center;gap:12px}
+.logo-area img{width:48px;height:48px;border-radius:50%;border:2px solid #ef4444;background:white}
+.logo-area h1{font-size:18px} .logo-area span{color:#ef4444}
+.nav a{color:white;text-decoration:none;margin-left:18px;font-size:14px;font-weight:600}
+.hero{background:linear-gradient(135deg,#0f172a,#dc2626);color:white;padding:60px 20px;text-align:center}
+.hero h2{font-size:32px;margin-bottom:12px}
+.btn{display:inline-block;padding:12px 28px;border-radius:30px;text-decoration:none;font-weight:700;margin:6px}
+.btn-red{background:#ef4444;color:white} .btn-white{background:white;color:#0f172a}
+.section{padding:40px 20px;max-width:1100px;margin:auto}
+.section-title{font-size:24px;margin-bottom:20px;border-left:5px solid #ef4444;padding-left:12px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:white;border-radius:16px;overflow:hidden;box-shadow:0 4px 12px rgba(0,0,0,0.08)}
+.card img{width:100%;height:170px;object-fit:cover;background:#e2e8f0}
+.card-body{padding:16px} .badge{display:inline-block;background:#fee2e2;color:#dc2626;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:700;margin-bottom:8px}
+.stats{background:#0f172a;color:white;display:grid;grid-template-columns:repeat(3,1fr);text-align:center;padding:30px 10px}
+.stats h3{font-size:28px;color:#ef4444}
+.footer{background:#020617;color:#94a3b8;padding:30px 20px;text-align:center;font-size:13px}
+</style>
+</head>
+<body>
+<header class="header">
+<div class="logo-area">
+<img src="logo.png" alt="Logo">
+<h1>Kunal Zee <span>Studio</span></h1>
+</div>
+<nav class="nav">
+<a href="https://www.youtube.com/@kunalzeestudio" target="_blank">YouTube</a>
+</nav>
+</header>
+<section class="hero">
+<h2>Jharkhand Ki Har Khabar Sabse Pehle</h2>
+<p>Local News, Ground Reporting, Exclusive Interviews - Sirf Kunal Zee Studio par</p>
+<a href="https://www.youtube.com/@kunalzeestudio?sub_confirmation=1" target="_blank" class="btn btn-red">🔔 Subscribe</a>
+<a href="#videos" class="btn btn-white">▶️ Latest Videos</a>
+</section>
+<div class="stats">
+<div><h3>100K+</h3><p>Subscribers Family</p></div>
+<div><h3>500+</h3><p>Ground Reports</p></div>
+<div><h3>Jharkhand</h3><p>Har Jile Ki Khabar</p></div>
+</div>
+<section class="section" id="videos">
+<h2 class="section-title">Latest News & Videos</h2>
+<div class="cards">
+<div class="card"><img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg"><div class="card-body"><span class="badge">BREAKING</span><h3>Jharkhand Ki Taza Khabar</h3><p>Exclusive ground report</p></div></div>
+<div class="card"><img src="https://img.youtube.com/vi/9bZkp7q19f0/maxresdefault.jpg"><div class="card-body"><span class="badge">INTERVIEW</span><h3>Janta Se Seedha Samvad</h3><p>Aam logo ki awaaz</p></div></div>
+<div class="card"><img src="https://img.youtube.com/vi/kJQP7kiw5Fk/maxresdefault.jpg"><div class="card-body"><span class="badge">JHARKHAND</span><h3>Har Jile Ki Khabrein</h3><p>Sabse tez update</p></div></div>
+</div>
+</section>
+<footer class="footer">
+<p><b>Kunal Zee Studio</b> © 2026 | Jharkhand Ki Har Khabar Sabse Pehle</p>
+</footer>
+</body>
+</html>
